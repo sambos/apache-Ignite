@@ -21,5 +21,8 @@ If you want to run the zeppelin on Cygwin without the "Could not find or load ma
 
 ```
 
+#### Start Ignite node
+Clone and import eclipse project https://github.com/vkulichenko/zeppelin-demo.git
+run the Node.java program and you should see `Ignite node started OK`
 
 
