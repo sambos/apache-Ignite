@@ -14,5 +14,11 @@ For the worker:
 To wrap these in services, I've user yasw or nssm.   
 ```   
 
+If you want to run the zeppelin on Cygwin without the "Could not find or load main class org.apache.zeppelin.server.ZeppelinServer" error, You should change the zeppelin running command in the "bin/zeppelin-daemon.sh" as follows.
+```
+  nohup nice -n $ZEPPELIN_NICENESS $ZEPPELIN_RUNNER $JAVA_OPTS -classpath `cygpath -wp $CLASSPATH` $ZEPPELIN_MAIN >> "${ZEPPELIN_OUTFILE}" 2>&1 < /dev/null &
+
+```
+
 
 
