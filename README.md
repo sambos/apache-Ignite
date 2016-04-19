@@ -25,4 +25,9 @@ If you want to run the zeppelin on Cygwin without the "Could not find or load ma
 Clone and import eclipse project https://github.com/vkulichenko/zeppelin-demo.git
 run the Node.java program and you should see `Ignite node started OK`
 
+Also if you would like to see web console for H2 - use the following command   
+`./ignite.sh -J-DIGNITE_H2_DEBUG_CONSOLE`   
+
+
+
 
