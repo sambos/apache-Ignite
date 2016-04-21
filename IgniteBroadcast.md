@@ -1,4 +1,5 @@
-###Ignite Broadcast example  
+###Ignite Broadcast Java example   
+I will show scala example sometime later..
 
 * Download and install ignite   
 * start the ignite nodes
