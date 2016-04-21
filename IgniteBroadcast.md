@@ -2,6 +2,7 @@
 I will show scala example sometime later..
 
 * Download and install ignite   
+* This example will run on Java 7 and above
 * start the ignite nodes
 * broadcast a message to ignite nodes   
 
