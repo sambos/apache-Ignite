@@ -1,6 +1,8 @@
 # apache-Ignite
 apache ignite poc work   
 
+> The main different is, of course, that Ignite is an in-memory computing system, e.g. the one that treats RAM as the primary storage facility. Whereas others - Spark included - only use RAM for processing. The former, memory-first approach, is faster because the system can do better indexing, reduce the fetch time, avoid (de)serializations, etc.
+
 Nice article to try out Apache Ignite and Apache Spark with Zeppelin   
 > Use this link  https://github.com/vkulichenko/zeppelin-demo
 
