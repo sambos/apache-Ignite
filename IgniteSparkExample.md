@@ -94,3 +94,10 @@
     println(df3.count)    
 ```
 
+#### Start Ignite node
+>$ ./bin/ignite.sh -J-DIGNITE_H2_DEBUG_CONSOLE ../apache-ignite-1.5.0.final-src/examples/config/example-cache.xml   
+option -J-DIGNITE_H2_DEBUG_CONSOLE will start the H2 DEBUG Console
+
+#### Start Ignite node
+Run the above scala program
+
