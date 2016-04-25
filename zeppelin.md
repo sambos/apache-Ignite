@@ -1,5 +1,5 @@
 # Zeppelin
-
+[Apache Zeppelin](https://zeppelin.incubator.apache.org/) is neat web based notebook style interface for interactive data analytics. 
 Apache Zeppelin is pretty straight forward to install and run on linux/mac. But you may run into classpath related issues (where interpreters were not loaded) with Windows, just like i went through. Eventually i discarded the idea and installed it on my mac or virtual host. Here is a neat little script that kicks off the apache spark and zeppelin that you may want to try instead of starting and stopping them manually. This script checks if there are already running processes.
 
 
