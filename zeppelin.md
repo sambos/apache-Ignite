@@ -2,6 +2,8 @@
 
 #### script that kicks of Zeppelin and Spark Master/Workder nodes
 ```shell
+
+#!/bin/bash
 SPARKHOME=/<path>/majeed/spark-1.5.2-bin-hadoop2.6
 ZEPPELINHOME=/<path>/majeed/zeppelin/zeppelin-0.5.6-incubating-bin-all
 
