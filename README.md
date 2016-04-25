@@ -84,3 +84,9 @@ You may have to use the maven shade plugin to build a jar that you can run on do
 
 ```
 
+#### Inspecting contents of Data Grid
+
+Ignite provides command line interface (Visor) for exploring cache. You can initiate Visor using the following command   
+> bin/ignitevisorcmd.sh
+
+
