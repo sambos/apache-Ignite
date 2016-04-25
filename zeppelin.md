@@ -1,6 +1,9 @@
 # Zeppelin
 
-#### script that kicks of Zeppelin and Spark Master/Workder nodes
+Apache Zeppelin is pretty straight forward to install and run on linux/mac. But you may run into classpath related issues (where interpreters were not loaded) with Windows, just like i went through. Eventually i discarded the idea and installed it on my mac or virtual host. Here is a neat little script that kicks off the apache spark and zeppelin that you may want to try instead of starting and stopping them manually. This script checks if there are already running processes.
+
+
+#### script that kicks of Zeppelin and Spark Master/Worker nodes
 ```shell
 
 #!/bin/bash
@@ -44,4 +47,14 @@ check_process "ZeppelinServer";
 start_process
 echo "done!"
 
+```
+
+#### Apache Zeppelin Restful API
+Apache zeppelin has a neat REST interface that allows you to do CRUD operations on its notebook and paragraphs. It also exposes REST interface for starting and queries jobs. I find them useful for testing or mocking you prototype.
+
+```
+http://localhost:9090/api/notebook
+
+For more APIs ,visit    
+https://zeppelin.incubator.apache.org/docs/0.5.6-incubating/rest-api/rest-notebook.html   
 ```
