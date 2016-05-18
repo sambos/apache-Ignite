@@ -1,6 +1,7 @@
 
 ## Apache Ignite
-### [Ignite Example](Ignite.md)
+* [Apache Ignite vs Apache Spark main difference](Ignite.md)
+* [Ignite POC demonstration](Ignite.md)   
 
 ## Apache Impala
 * [Comparing Impala/Hive/SparkSQL](https://github.com/sambos/ApacheSpark/blob/master/Impala.md)   
