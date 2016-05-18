@@ -3,11 +3,12 @@
 ### [Ignite Example](Ignite.md)
 
 ## Apache Impala
-Apache Impala [example](../../../ApacheSpark/Impala.md) 
-
+*[Comparing Impala/Hive/SparkSQL](https://github.com/sambos/ApacheSpark/blob/master/Impala.md)
+*[Connecting to Impala/Hive from your workstation](https://github.com/sambos/ApacheSpark/blob/master/Impala.md) 
+*[Connecting to Impala/Hive from Zeppelin](https://github.com/sambos/ApacheSpark/blob/master/Impala.md) 
 
 ## Apache Zeppelin
-Running Apache Ignite with Zeppelin
+*[Connecting to Impala/Hive from Zeppelin](https://github.com/sambos/ApacheSpark/blob/master/Impala.md) 
 
 
 
