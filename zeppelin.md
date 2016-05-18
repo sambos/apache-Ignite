@@ -58,3 +58,4 @@ http://localhost:9090/api/notebook
 For more APIs ,visit    
 https://zeppelin.incubator.apache.org/docs/0.5.6-incubating/rest-api/rest-notebook.html   
 ```
+#### Zeppelin Impala Interpreter with Kerberos authenticatation
