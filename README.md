@@ -3,7 +3,7 @@
 ### [Ignite Example](Ignite.md)
 
 ## Apache Impala
-Apache Impala [example](ApacheSpark/Impala.md) 
+Apache Impala [example](../../../ApacheSpark/Impala.md) 
 
 
 ## Apache Zeppelin
