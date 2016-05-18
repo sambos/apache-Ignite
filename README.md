@@ -9,7 +9,8 @@
 * [Connecting to Impala/Hive from Zeppelin](https://github.com/sambos/ApacheSpark/blob/master/Impala.md)    
 
 ## Apache Zeppelin
-* [Connecting to Impala/Hive from Zeppelin](https://github.com/sambos/ApacheSpark/blob/master/Impala.md)    
+* [script that kicks of Zeppelin and Spark Master/Worker nodes](https://github.com/sambos/apache-Ignite/blob/master/zeppelin.md)    
+* [Connecting to Impala/Hive from Zeppelin](https://github.com/sambos/apache-Ignite/blob/master/zeppelin.md#zeppelin-impala-interpreter-with-kerberos-authenticatation)   
 
 
 
