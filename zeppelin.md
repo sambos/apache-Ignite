@@ -70,7 +70,7 @@ You can use the [steps described here in HiveImpalaJdbcDriver.java](https://gith
 ```
 * Create your own ImpalaInterpreter that extends from org.apache.zeppelin.interpreter.Interpreter , you can refer to the [HiveInterpreter code](https://github.com/apache/incubator-zeppelin/blob/master/hive/src/main/java/org/apache/zeppelin/hive/HiveInterpreter.java) or copy the same code in your class the modify the code to use kerberos that initializes connection as follows :
 ```java
-## Initializes the interpreter ...
+## Initializes the interpreter as follows .. this will enable 
 
   static {
     Interpreter.register(
@@ -87,7 +87,7 @@ You can use the [steps described here in HiveImpalaJdbcDriver.java](https://gith
             .add(DEFAULT_REALM,"UNITOPR.UNITINT.TEST.STATEFARM.ORG","default realm").build());
   }
   
-## replace the connection initialization code as follows
+## replace the connection initialization code as follows...
 
     if (null == connection) {
       Properties properties = propertiesMap.get(propertyKey);
@@ -123,3 +123,9 @@ You can use the [steps described here in HiveImpalaJdbcDriver.java](https://gith
       }
     }
 ```
+* Package the impala interpreter and its jars to ZEPPELIN_HOME/interpreter/impala folder
+* Create an entry into zeppelin-sites.xml for this interepreter
+* Restart the zeppelin
+* Open zeppelin home, add new interpreter for impala, provide the url, and location for your keytab
+* save the interpreter
+* enjoy with %impala
